@@ -1,0 +1,21 @@
+@media only screen and (min-device-width: 0px) and (max-device-width: 670px) {
+  .general_menu {
+    display: none;
+  }
+  .cont {
+    display:block;
+    width: 100vw;
+ }
+  .adopt {
+    top: 38%;
+    left: 25%;
+    position: absolute;
+    height: 37vw;
+    width: 52vw;
+    transform: rotate(90deg);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url('../images/adopt.png');
+
+  }
+}

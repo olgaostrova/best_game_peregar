@@ -1,0 +1,154 @@
+.game_1 {
+  display: none;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.game_1_intro {
+  z-index: 1;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_1_intro.svg');
+}
+.game_1_first_screen {
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.chel_1 {
+  display: block;
+  height: 55vh;
+  width: 47vh;
+  position: absolute;
+  top: 52vh;
+  left: 59vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_1.png');
+}
+.chel_1_smile {
+  opacity: 0;
+  height: 55vh;
+  width: 47vh;
+  position: absolute;
+  top: 52vh;
+  left: 59vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_1_smile.png');
+}
+.chel_2 {
+  display: block;
+  height: 55vh;
+  width: 31vh;
+  position: absolute;
+  top: 52vh;
+  left: 35vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_2.png');
+}
+.chel_2_smile {
+  opacity: 0;
+  height: 55vh;
+  width: 47vh;
+  position: absolute;
+  top: 52vh;
+  left: 35vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_2_smile.png');
+}
+.chel_3 {
+  display: block;
+  height: 55vh;
+  width: 37vh;
+  position: absolute;
+  top: 52vh;
+  left: -10vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_3.png');
+}
+.chel_3_smile {
+  opacity: 0;
+  height: 55vh;
+  width: 47vh;
+  position: absolute;
+  top: 52vh;
+  left: -10vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/chel_3_smile.png');
+}
+
+.beer_mug {
+  /* z-index: 3; */
+  z-index: 1;
+  position: absolute;
+  height: 30vh;
+  width: 29vh;
+  top: 9vh;
+  left: 91vh;
+  rotate: 342deg;
+}
+.mug_0 {
+  opacity: 1;
+  position: absolute;
+  height: 30vh;
+  width: 29vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/mug_0.png');
+}
+.mug_1 {
+  position: absolute;
+  opacity: 0;
+  height: 30vh;
+  width: 29vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/mug_1.png');
+}
+.mug_2 {
+  position: absolute;
+  opacity: 0;
+  height: 30vh;
+  width: 29vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/mug_2.png');
+}
+.mug_3 {
+  position: absolute;
+  opacity: 0;
+  height: 30vh;
+  width: 29vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/mug_3.png');
+}
+
+.game_1_result {
+  opacity: 0;
+  height: 16vh;
+  width: 84vh;
+  position: absolute;
+  top: 10vh;
+  left: 3vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_1_result.svg');
+}

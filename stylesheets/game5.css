@@ -1,0 +1,371 @@
+@keyframes a1 {
+  0% {opacity: 0%}
+  1% {opacity: 100%}
+  99% {opacity: 100%}
+  100% {opacity: 0%}
+}
+@keyframes a2 {
+  0% {opacity: 0%}
+  1% {opacity: 100%}
+  50% {opacity: 100%}
+  51% {opacity: 0%}
+  100% {opacity: 0%}
+}
+@keyframes a3 {
+  0% {opacity: 0%}
+  1% {opacity: 100%}
+  50% {opacity: 100%}
+  51% {opacity: 0%}
+  100% {opacity: 0%}
+}
+.an1{
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-duration: 0.8s;
+  animation-name: a2;
+}
+.an2{
+  animation-iteration-count: infinite;
+  animation-play-state: paused;
+  animation-delay: 0.4s;
+  animation-duration: 0.8s;
+  animation-name: a3;
+}
+
+
+.game_5 {
+  display: none;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.home_5 {
+  z-index: 4;
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+  top: 88vh;
+  left: 118vh;
+}
+.game_5_intro {
+  z-index: 1;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_5_intro.svg');
+}
+.game_5_first_screen {
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background: white;
+}
+
+.dragons {
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+
+.drak_1_sad {
+  z-index: 1;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_1_sad.png');
+}
+.drak_2_sad {
+  z-index: 2;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_2_sad.png');
+}
+.drak_3_sad {
+  z-index: 3;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_3_sad.png');
+}
+.drak_4_sad {
+  z-index: 4;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_4_sad.png');
+}
+.drak_5_sad {
+  z-index: 5;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_5_sad.png');
+}
+.drak_6_sad {
+  z-index: 6;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_6_sad.png');
+}
+.drak_7_sad {
+  z-index: 7;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_7_sad.png');
+}
+.drak_8_sad {
+  z-index: 8;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_8_sad.png');
+}
+.drak_9_sad {
+  z-index: 9;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_9_sad.png');
+}
+
+.drak_1_smile {
+  z-index: 1;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_1_smile.png');
+}
+.drak_2_smile {
+  z-index: 2;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_2_smile.png');
+}
+.drak_3_smile {
+  z-index: 3;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_3_smile.png');
+}
+.drak_4_smile {
+  z-index: 4;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_4_smile.png');
+}
+.drak_5_smile {
+  z-index: 5;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_5_smile.png');
+}
+.drak_6_smile {
+  z-index: 6;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_6_smile.png');
+}
+.drak_7_smile {
+  z-index: 7;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_7_smile.png');
+}
+.drak_8_smile {
+  z-index: 8;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_8_smile.png');
+}
+.drak_9_smile {
+  z-index: 9;
+  opacity: 0;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/drak_9_smile.png');
+}
+
+.game_5_final {
+  opacity: 0;
+  z-index: 10;
+  height: 8vh;
+  width: 93vh;
+  top: 1vh;
+  left: 3vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_5_final.svg');
+}
+
+.surprise {
+  z-index: 30;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  display: none;
+  position: absolute;
+  background: white;
+}
+.sur_1 {
+  opacity: 1;
+  height: 12vh;
+  width: 155vh;
+  top: 45vh;
+  left: 79vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/sur_1.svg');
+}
+.sur_2 {
+  opacity: 0;
+  height: 12vh;
+  width: 155vh;
+  top: 18vh;
+  left: 79vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/sur_2.svg');
+}
+
+.pleer {
+  height: 32vh;
+  width: 36vh;
+  top: 66vh;
+  left: 82vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/pleer.png');
+}
+.pleer2 {
+  display: none;
+  height: 32vh;
+  width: 36vh;
+  top: 66vh;
+  left: 82vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/pleer.png');
+}
+.who {
+  height: 79vh;
+  width: 71vh;
+  top: 16vh;
+  left: -2vh;
+  position: absolute;
+}
+.who_1 {
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/who_1.png');
+}
+.who_2 {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/who_2.png');
+}
+
+.audio {
+  opacity: 0;
+}

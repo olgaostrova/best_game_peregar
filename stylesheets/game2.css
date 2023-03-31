@@ -1,0 +1,758 @@
+@keyframes a1 {
+  0% {opacity: 0%}
+  1% {opacity: 100%}
+  99% {opacity: 100%}
+  100% {opacity: 0%}
+}
+
+.ans_apple{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 5s;
+  animation-name: a1;
+}
+.ans_banana{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 5s;
+  animation-name: a1;
+}
+.ans_bottle{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 6s;
+  animation-name: a1;
+}
+.ans_cheburek{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 3s;
+  animation-name: a1;
+}
+.ans_cube{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 6s;
+  animation-name: a1;
+}
+.ans_cup{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 5s;
+  animation-name: a1;
+}
+.ans_fork{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 3s;
+  animation-name: a1;
+}
+.ans_pencil{
+  animation-play-state: paused;
+  animation-delay: 1.8s;
+  animation-duration: 2s;
+  animation-name: a1;
+}
+
+.food_cards {
+  top: 61vh;
+  left: 67vh;
+  height: 23vh;
+  width: 64vh;
+  position: absolute;
+}
+.apple_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/apple_card.png');
+}
+.banana_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/banana_card.png');
+}
+.bottle_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/bottle_card.png');
+}
+.cheburek_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/cheburek_card.png');
+}
+.cube_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/cube_card.png');
+}
+.cup_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/cup_card.png');
+}
+.fork_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/fork_card.png');
+}
+.pencil_card {
+  opacity: 0;
+  height: inherit;
+  width: inherit;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/pencil_card.png');
+}
+
+.a1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.a2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.a3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.a4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.b1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.b2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.b3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.b4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.c1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.c2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.c3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.c4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.d1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.d2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.d3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.d4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.e1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.e2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.e3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.e4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.f1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.f2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.f3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.f4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.g1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.g2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.g3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.g4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+.h1{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-name: a1;
+}
+.h2{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.45s;
+  animation-name: a1;
+}
+.h3{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 0.9s;
+  animation-name: a1;
+}
+.h4{
+  animation-play-state: paused;
+  animation-duration: 0.5s;
+  animation-delay: 1.3s;
+  animation-name: a1;
+}
+
+
+.game_2 {
+  display: none;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.game_2_intro {
+  z-index: 1;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_2_intro.svg');
+}
+.game_2_first_screen {
+  display: none;
+  z-index: 2;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+  background: white;
+  /* background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_2.jpg'); */
+}
+.home_2 {
+  /* z-index: 3; */
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+  top: 88vh;
+  left: 118vh;
+}
+
+.apple_blue:hover {
+  opacity: 1;
+}
+.banana_blue:hover  {
+  opacity: 1;
+}
+.bottle_blue:hover  {
+  opacity: 1;
+}
+.cheburek_blue:hover  {
+  opacity: 1;
+}
+.cube_blue:hover  {
+  opacity: 1;
+}
+.cup_blue:hover  {
+  opacity: 1;
+}
+.fork_blue:hover  {
+  opacity: 1;
+}
+.pencil_blue:hover  {
+  opacity: 1;
+}
+
+/* .open_mouth:hover {
+  opacity: 0;
+} */
+/* .open_mouth:hover {
+  opacity: 1;
+} */
+
+
+.food_box {
+  position: absolute;
+  z-index: 1;
+  height: 37vh;
+  width: 48vh;
+  top: 51vh;
+  left: 0vh;
+}
+
+.apple {
+  height: 10vh;
+  width: 10vh;
+  top: 21vh;
+  left: 11vh;
+  position: absolute;
+  display: block;
+}
+.apple_blue {
+  position: absolute;
+  height: 10vh;
+  width: 10vh;
+  opacity: 0;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/apple_blue.png');
+}
+.apple_black {
+  position: absolute;
+  height: 10vh;
+  width: 10vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/apple.png');
+}
+
+.banana {
+  position: absolute;
+  display: block;
+  height: 15vh;
+  width: 9vh;
+  top: 14vh;
+  left: 33vh;
+}
+.banana_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 15vh;
+  width: 9vh;
+  background-image: url('../images/banana.png');
+}
+.banana_blue {
+  position: absolute;
+  opacity: 0;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 15vh;
+  width: 9vh;
+  background-image: url('../images/banana_blue.png');
+}
+
+.bottle {
+  position: absolute;
+  display: block;
+  height: 8vh;
+  width: 15vh;
+  top: 4vh;
+  left: 25vh;
+  transform: rotate(40deg);
+}
+.bottle_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: inherit;
+  width: inherit;
+  background-image: url('../images/bottle.png');
+}
+.bottle_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: inherit;
+  width: inherit;
+  background-image: url('../images/bottle_blue.png');
+}
+
+.cheburek {
+  position: absolute;
+  display: block;
+  height: 7vh;
+  width: 13vh;
+  top: 11vh;
+  left: 8vh;
+  transform: rotate(30deg);
+}
+.cheburek_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 13vh;
+  background-image: url('../images/cheburek.png');
+}
+.cheburek_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 7vh;
+  width: 13vh;
+  background-image: url('../images/cheburek_blue.png');
+}
+
+.cube {
+  position: absolute;
+  display: block;
+  height: 9vh;
+  width: 9vh;
+  top: 3vh;
+  left: 14vh;
+}
+.cube_black {
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 9vh;
+  position: absolute;
+  width: 9vh;
+  background-image: url('../images/cube.png');
+}
+.cube_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 9vh;
+  width: 9vh;
+  background-image: url('../images/cube_blue.png');
+}
+
+.fork {
+  position: absolute;
+  display: block;
+  height: 11vh;
+  width: 9vh;
+  top: 16vh;
+  left: 3vh;
+}
+.fork_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 11vh;
+  width: 9vh;
+  background-image: url('../images/fork.png');
+}
+.fork_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 11vh;
+  width: 9vh;
+  background-image: url('../images/fork_blue.png');
+}
+
+.pencil {
+  position: absolute;
+  display: block;
+  height: 13vh;
+  width: 10vh;
+  top: 22vh;
+  left: 25vh;
+  transform: rotate(26deg);
+}
+.pencil_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 13vh;
+  width: 10vh;
+  background-image: url('../images/pencil.png');
+}
+.pencil_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 13vh;
+  width: 10vh;
+  background-image: url('../images/pencil_blue.png');
+}
+
+.cup {
+  position: absolute;
+  display: block;
+  height: 15vh;
+  width: 12vh;
+  top: 9.5vh;
+  left: 21vh;
+}
+.cup_black {
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 15vh;
+  width: 12vh;
+  background-image: url('../images/cup.png');
+}
+.cup_blue {
+  opacity: 0;
+  position: absolute;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  height: 15vh;
+  width: 12vh;
+  background-image: url('../images/cup_blue.png');
+}
+
+.open_mouth {
+  opacity: 0;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth.png');
+}
+.open_mouth_1 {
+  opacity: 0;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_1.png');
+}
+.open_mouth_2 {
+  opacity: 0;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_2.png');
+}
+.open_mouth_3 {
+  opacity: 0;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_3.png');
+}
+
+.close_mouth {
+  height: 56vh;
+  width: 68vh;
+  position: absolute;
+  top: 1vh;
+  left: 55vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/close_mouth.png');
+}
+
+.close_mouth_banana {
+  z-index: 2;
+  height: 56vh;
+  width: 68vh;
+  position: absolute;
+  top: 1vh;
+  left: 55vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/close_mouth.png');
+}
+
+.open_mouth_banana {
+  opacity: 0;
+  z-index: 2;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth.png');
+}
+
+.open_mouth_1_banana {
+  opacity: 0;
+  z-index: 2;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_1.png');
+}
+.open_mouth_2_banana {
+  opacity: 0;
+  z-index: 2;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_2.png');
+}
+.open_mouth_3_banana {
+  opacity: 0;
+  z-index: 2;
+  background: white;
+  height: 56vh;
+  width: 73vh;
+  position: absolute;
+  top: 6vh;
+  left: 56vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/open_mouth_3.png');
+}
+
+.game_2_final {
+  opacity: 0;
+  height: 11vh;
+  width: 44vh;
+  position: absolute;
+  top: 62vh;
+  left: 8vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/game_2_final.svg');
+
+}

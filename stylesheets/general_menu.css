@@ -1,0 +1,211 @@
+
+body {
+  background: white;
+}
+.cont {
+  display: none;
+}
+.home {
+  z-index: 100;
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+  top: 88vh;
+  left: 118vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/home.png');
+}
+.home_active:hover {
+  opacity: 1;
+}
+.home_active {
+  opacity: 0;
+  position: absolute;
+  height: 8vh;
+  width: 8vh;
+
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-image: url('../images/home_active.png');
+}
+
+
+/* ховеры голубых лун */
+.moon1:hover ~ .circle1 {
+  opacity: 1;
+}
+.moon2:hover ~ .circle2 {
+  opacity: 1;
+}
+.moon3:hover ~ .circle3 {
+  opacity: 1;
+}
+.moon4:hover ~ .circle4 {
+  opacity: 1;
+}
+.moon5:hover ~ .circle5 {
+  opacity: 1;
+}
+.general_menu {
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: relative;
+  overflow: hidden;
+  /* background-color: red; */
+}
+.this_is {
+  top: 46vh;
+  left: 7vh;
+  height: 24vh;
+  width: 150vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url('../images/this_is.svg');
+
+}
+.castle {
+  z-index: 1;
+  /* display: block; */
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-image: url('../images/general_menu.png');
+
+}
+.moon {
+  z-index: 0;
+  display: block;
+  margin: 0 auto;
+  height: 100vh;
+  width: 133vh;
+  position: absolute;
+}
+.moon1 {
+  z-index: 3;
+  background: red;
+  opacity: 0;
+  height: 17vh;
+  width: 25vh;
+  position: absolute;
+  top: 48vh;
+  left: 27vh;
+  margin: 0 auto;
+  transform: rotate(61deg);
+}
+.moon2 {
+  z-index: 2;
+  opacity: 0;
+  background: red;
+  height: 18vh;
+  width: 42vh;
+  position: absolute;
+  top: 32vh;
+  left: 20vh;
+  margin: 0 auto;
+  transform: rotate(70deg);
+}
+.moon3 {
+ z-index: 2;
+  opacity: 0;
+  background: orange;
+  height: 46vh;
+  width: 27vh;
+  position: absolute;
+  top: 18vh;
+  left: 48vh;
+  margin: 0 auto;
+}
+.moon4 {
+  z-index: 2;
+  opacity: 0;
+  background: pink;
+  height: 33vh;
+  width: 16vh;
+  position: absolute;
+  top: 40vh;
+  left: 67vh;;
+  margin: 0 auto;
+}
+.moon5 {
+  z-index: 2;
+  opacity: 0;
+  background: yellow;
+  height: 30vh;
+  width: 19vh;
+  position: absolute;
+  top: 19vh;
+  left: 76vh;
+  margin: 0 auto;
+  transform: rotate(32deg);
+}
+
+.circle1 {
+  opacity: 0;
+  top: 40vh;
+  left: 22vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  transition: 0.2s;
+}
+.circle2 {
+  opacity: 0;
+  position: absolute;
+  top: 16vh;
+  left: 24vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.circle3 {
+  opacity: 0;
+  position: absolute;
+  top: 3vh;
+  left: 47vh;
+  height: 30vh;
+  width: 30vh;
+  transform: rotate(219deg);
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.circle4 {
+  opacity: 0;
+  position: absolute;
+  top: 43vh;
+  left: 67vh;
+  height: 30vh;
+  width: 30vh;
+  transform: rotate(151deg);
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+.circle5 {
+  opacity: 0;
+  position: absolute;
+  top: 19vh;
+  left: 71vh;
+  height: 30vh;
+  width: 30vh;
+  background-image: url(../images/moon.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+}
